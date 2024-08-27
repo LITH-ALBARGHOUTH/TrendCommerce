@@ -1,0 +1,184 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    background-color: #f5f5f5;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.InputAlanlari {
+    width: 95%;
+    height: 30px;
+    padding: 0px 10px;
+}
+.YesilButon {
+    height: 30px;
+    border: 1px solid #00FF00;
+    background: #009900;
+    padding: 5px 30px;
+    color: #FFFFFF;
+}
+.YesilButon:hover {
+    height: 30px;
+    border: 1px solid #009900;
+    background: #00FF00;
+    padding: 5px 30px;
+    color: black;
+    cursor: pointer;
+}
+.SonucSayfalari a:link, .SonucSayfalari a:hover, .SonucSayfalari a:active, .SonucSayfalari a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.AnaMenuler a:link, .AnaMenuler a:hover, .AnaMenuler a:active, .AnaMenuler a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.TextAreaAlanlari {
+    width: 95%;
+    height: 150px;
+    padding: 10px 10px;
+}
+.SelectAlanlari {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+}
+.SayfalamaAlaniKapsayicisi{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.SayfalamaAlaniIciMetinAlaniKapsayicisi{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.SayfalamaAlaniIciNumaraAlaniKapsayicisi{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.SayfalamaAktif{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #f6f6f6;
+    border: 1px solid #dadada;
+    outline: 0;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+.SayfalamaPasif{
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    margin: 0px 0.5px;
+    padding: 5px 7.5px;
+    background: #f6f6f6;
+    border: 1px solid #dadada;
+    outline: 0;
+    color: #646464;
+    font-weight: bold;
+    text-decoration: none;
+}
+.SayfalamaPasif a:link, .SayfalamaPasif a:hover, .SayfalamaPasif a:active, .SayfalamaPasif a:visited{
+    color: #646464;
+    text-decoration: none;
+}
+.search-form{
+    display: flex;
+    border: 1px solid #646464;
+    width: 100%;
+}
+.AramaAlani{
+    display: block;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /* vertical-align: top; */
+
+}
+.AramaAlaniButonKapsamaAlani{
+    height: 35px;
+}
+.AramaAlaniInputKapsamaAlani{
+    /* float: right; */
+    /* width: -webkit-calc(100%-60px);
+    width: -moz-calc(100%-60px);
+    width: -o-calc(100%-60px);
+    width: -ms-calc(100%-60px); */
+    height: 35px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    
+
+}
+.AramaAlaniButonu{
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    background: url(../Resimler/mercek.jpg);
+    background-repeat: no-repeat;
+    background-position: center left 19px;
+}
+.AramaAlaniButonu:hover{
+    cursor: pointer;
+
+}
+.AramaAlaniInputu{
+    height: 33px;
+    outline: 0;
+    text-align: left;
+    width: 99%;
+    border: 0;
+
+}
